@@ -19,7 +19,7 @@
 #include <linux/spinlock.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Yash Mahimkar");
+MODULE_AUTHOR("Microchip12");
 MODULE_DESCRIPTION("DMA proxy: S2MM with synchronized start and data gate control");
 
 // -------- IOCTLs --------
