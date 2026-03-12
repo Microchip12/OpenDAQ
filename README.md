@@ -1,2 +1,4 @@
 # OpenDAQ
-OpenDAQ is an open-source FPGA-based data acquisition platform for characterizing experimental ICs. It combines high-speed differential capture hardware with an embedded Linux environment, enabling flexible data acquisition, DMA transfer, DDR storage, and on-device analysis in a low-cost system designed for research and education.
+OpenDAQ is an open-source FPGA-based data acquisition platform for characterizing experimental ICs. It combines high-speed differential capture hardware with an embedded Linux environment, enabling flexible data acquisition, DMA transfer, DDR storage, and on-device analysis in a low-cost system designed for research and education. Below is the system level block diagram.
+<img width="1802" height="1987" alt="image" src="https://github.com/user-attachments/assets/f6a51a06-7edb-4950-ad87-c04a1acf7435" />
+As one can see, OpenDAQ utilizes the Zynq SOC from Xilinx, and has been thoroughly tested and validated on the Digilent Zedboard, but can easily be ported to various systems. The Zynq SOC used so far has hard cpu cores that are utilized in this design to run Linux, but that job can be done by softcores on FPGA only systems.
